@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q01",
+    "topic": "Impact of Generative AI on Enterprise Data Science Workflows",
+    "domain": "Artificial Intelligence",
+    "expected_themes": ["code generation", "automated EDA", "model evaluation", "productivity gains"]
+  },
+  {
+    "id": "q02",
+    "topic": "Quantum Error Correction in Scalable Superconducting Qubits",
+    "domain": "Quantum Computing",
+    "expected_themes": ["surface codes", "fault tolerance", "logical qubits", "syndrome measurement"]
+  },
+  {
+    "id": "q03",
+    "topic": "Solid-State Battery Electrolytes for Electric Vehicles",
+    "domain": "Clean Energy",
+    "expected_themes": ["sulfide electrolytes", "dendrite formation", "ionic conductivity", "energy density"]
+  },
+  {
+    "id": "q04",
+    "topic": "CRISPR-Cas9 Base Editing Clinical Trials for Sickle Cell Disease",
+    "domain": "Biomedicine",
+    "expected_themes": ["off-target effects", "fetal hemoglobin", "BCL11A gene", "clinical outcomes"]
+  },
+  {
+    "id": "q05",
+    "topic": "Perovskite-Silicon Tandem Solar Cell Degradation Mechanisms",
+    "domain": "Materials Science",
+    "expected_themes": ["moisture sensitivity", "thermal stability", "interface passivation", "power conversion efficiency"]
+  }
+]
