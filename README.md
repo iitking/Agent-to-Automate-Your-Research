@@ -29,7 +29,7 @@
 * **100% Real Integrations (Zero-Mock Policy)**: No simulated search results, dummy agent outputs, or fabricated citations. Every query hits live web engines and public academic databases.
 * **Stateful Multi-Agent Orchestration**: Built with **LangGraph** using typed state machines and conditional cyclical loops (evaluates evidence sufficiency; if gaps exist, refines queries and re-triggers search within bounded budgets).
 * **Automated Fact-Checking & Entailment**: Atomizes synthesized findings into verifiable claims and cross-examines them against retrieved text passages with 4 explicit statuses:
-  $$\text{Claim Status} \in \{\texttt{supported}, \texttt{partially\_supported}, \texttt{contradicted}, \texttt{insufficient\_evidence}\}$$
+  `supported` · `partially_supported` · `contradicted` · `insufficient_evidence`
 * **Live Academic Index Discovery**: Direct live integrations with **arXiv** (pre-prints), **Crossref** (peer-reviewed DOIs), and **Semantic Scholar** (citation metadata).
 * **Deep Document & Web Extraction**: Uses **Trafilatura** for article extraction and **PyMuPDF** (`pymupdf`) for direct multi-page PDF text mining.
 * **Traceable, Hallucination-Free Citations**: Validates all report bibliography entries against retrieved database records before finalizing the canonical report.
